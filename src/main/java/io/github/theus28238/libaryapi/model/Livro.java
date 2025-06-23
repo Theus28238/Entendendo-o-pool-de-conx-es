@@ -42,6 +42,4 @@ public class Livro {
     @JoinColumn(name = "id_autor")
     private Autor autor;
 
-@OneToMany(mappedBy = "autor")
-    private List<List> livros;
-    }
+}
